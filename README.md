@@ -14,7 +14,7 @@ A control system for Pactotech hardware built using a Raspberry Pi with a touchs
   https://www.printables.com/model/899608-adafruit-5-hdmi-screen-case/related  
 - HDMI + USB cables (varies by Pi model)  
 - A usb keyboard for installation.  
-- Micro USB adapter for usb keyboard.  (If using a PiZero or PiZero2)  
+- Micro USB adapter for usb keyboard.  
 
 ## 🎮 About the Pactotech 4000T Interface
 - Supports up to 4 players  
@@ -22,10 +22,11 @@ A control system for Pactotech hardware built using a Raspberry Pi with a touchs
 - Works with most emulators and PC games  
 - Flexible input modes (digital, analog, twinstick)
 
-<img width="1190" height="876" alt="pacto-4000t" src="https://github.com/user-attachments/assets/c181a236-baa0-4b37-9ad0-cfd24ca10f7d" />  
-## 🔌 GPIO Pinout (Pacto 4000T → Raspberry Pi)  
-All GPIOs are **active LOW** using `gpiozero.OutputDevice`.  
-### 🎮 Player Mode  
+## 🔌 GPIO Pinout (Pacto 4000T → Raspberry Pi)
+<img width="1190" height="876" alt="pacto-4000t" src="https://github.com/user-attachments/assets/c181a236-baa0-4b37-9ad0-cfd24ca10f7d" />
+
+All GPIOs are **active LOW** using `gpiozero.OutputDevice`.
+### 🎮 Player Mode
 | Mode        | GPIO   | Physical Pin |
 |------------|--------|--------------|
 | 2 Player   | GPIO17 | Pin 11 |
