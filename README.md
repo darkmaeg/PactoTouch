@@ -14,7 +14,7 @@ A control system for Pactotech hardware built using a Raspberry Pi with a touchs
   https://www.printables.com/model/899608-adafruit-5-hdmi-screen-case/related  
 - HDMI + USB cables (varies by Pi model)  
 - A usb keyboard for installation.  
-- Micro USB adapter for usb keyboard.  
+- Micro USB adapter for usb keyboard.  (If using a PiZero or PiZero2)  
 
 ## 🎮 About the Pactotech 4000T Interface
 - Supports up to 4 players  
